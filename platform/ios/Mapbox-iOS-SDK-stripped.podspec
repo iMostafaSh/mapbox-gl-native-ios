@@ -27,7 +27,7 @@ Pod::Spec.new do |m|
   m.vendored_frameworks = 'dynamic/Mapbox.framework'
   m.module_name = 'Mapbox'
 
-  m.preserve_path = '**/*.bcsymbolmap'
+#  m.preserve_path = '**/*.bcsymbolmap'
 
   m.dependency "MapboxMobileEvents", "0.10.2"
 
